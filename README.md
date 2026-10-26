@@ -1,8 +1,3 @@
 Online Appointment Booking system 
-This project is developed to help users book appointments online.
-Technologies Used:
-HTML,CSS,JavaScript,Node.js and Database.
-Features:
-   Online appointment booking 
-   User-friendly interface
-   Appointment management
+This project will work by using
+  Link- https://ais-pre-52pmfeqtn2igkkeaxbifie-974480719752.asia-southeast1.run.app
