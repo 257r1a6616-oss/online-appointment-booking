@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MedPulse - Online Appointment Booking System</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">MedPulse</a>
+            <nav class="nav-links">
+                <a href="index.html" class="active">Home</a>
+                <a href="services.html">Services</a>
+                <a href="book.html">Book Appointment</a>
+                <a href="appointments.html">My Bookings</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+            <div class="nav-actions" id="authActions">
+                <a href="login.html" class="btn btn-primary">Sign In / Register</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <span class="sub-badge">Online Medical & Consultation Scheduling</span>
+                <h1>Seamless Healthcare & Specialist Appointments</h1>
+                <p>Book real-time appointments with verified medical professionals. Check live doctor availability, receive instant booking codes, and avoid waiting room queues.</p>
+                <div class="hero-buttons">
+                    <a href="book.html" class="btn btn-primary btn-large">Book Appointment</a>
+                    <a href="services.html" class="btn btn-outline btn-large">Explore Services</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="container section">
+            <h2 class="section-title">Our Featured Clinical Services</h2>
+            <div class="services-grid" id="servicesGrid">
+                <!-- Dynamically loaded via main.js from /api/services -->
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>© 2026 MedPulse Appointment Booking System · B.Tech Capstone Project</p>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>
